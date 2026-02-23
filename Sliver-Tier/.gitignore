@@ -1,0 +1,35 @@
+# Credentials and sensitive files
+credentials.json
+*.p12
+*.pem
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JSON data files (if containing sensitive data)
+approval_config.json
+approval_queue.json
