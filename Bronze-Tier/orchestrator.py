@@ -18,6 +18,10 @@ from typing import List, Dict, Optional
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
 
+# Add watchers directory to path
+watchers_path = Path(__file__).parent / 'watchers'
+sys.path.insert(0, str(watchers_path))
+
 class Orchestrator:
     def __init__(self, vault_path: str):
         """

@@ -1,0 +1,44 @@
+# Personal AI Employee - Gold Tier
+# Python Dependencies
+
+# Core Dependencies
+requests>=2.31.0
+pathlib>=1.0.1
+
+# Google API (Gmail)
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# WhatsApp Automation
+playwright>=1.40.0
+
+# File System Watching
+watchdog>=3.0.0
+
+# MCP Servers
+mcp>=0.1.0
+fastmcp>=0.1.0
+
+# Odoo Integration
+# (uses requests, already included)
+
+# Meta/Facebook Integration
+# (uses requests, already included)
+
+# Twitter/X Integration
+# (uses requests, already included)
+
+# LinkedIn Automation
+# (uses playwright, already included)
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Logging and Monitoring
+# (uses built-in logging)
+
+# Development
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
